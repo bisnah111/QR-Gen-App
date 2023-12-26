@@ -1,38 +1,45 @@
-.App {
-  text-align: center;
+@import url('http://fonts.cdnfonts.com/css/lilly'); 
+body{
+  background-color: rgb(0, 0, 0);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.App{ 
+display: flex; 
+flex-direction: column; 
+justify-content: center; 
+align-items: center; 
+gap: 50px; 
+padding-top: 30px; 
+} 
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+h1{ 
+font-family: 'Lilly', sans-serif; 
+font-size: 40px; 
+color: rgb(251, 251, 251);
+} 
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+.gen input{ 
+height: 30px; 
+width: 300px; 
+font-size: 20px; 
+text-align: center;
+} 
 
-.App-link {
-  color: #61dafb;
-}
+button{ 
+position: relative; 
+height: 35px; 
+width: 200px; 
+font-size: 15px;  
+color: whitesmoke; 
+background-color: rgb(0, 0, 0); 
+cursor: pointer; 
+top: -1.5rem;
+} 
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.output-box{ 
+padding-top: 4rem;;
+display: flex; 
+flex-direction: column; 
+align-items: center; 
+gap: 40px; 
 }
