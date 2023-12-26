@@ -8,4 +8,4 @@ Build a QR geberation app in ReactJS using create-qr-code API.
 3. App will start on http://localhost:3000
 
 
-### Please note : The API used here doesnt required any secret key.
+#### Please note : The API used here doesnt required any secret key.
